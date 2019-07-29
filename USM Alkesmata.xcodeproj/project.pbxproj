@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E4C777321FC20DA00798FB8 /* ICON-USM1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C777221FC20DA00798FB8 /* ICON-USM1.png */; };
+		6EAD47CB220170B60052067E /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD47CA220170B60052067E /* homeViewController.swift */; };
+		6EAD47CD22018A070052067E /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD47CC22018A070052067E /* loginViewController.swift */; };
+		6EC7358321D53F02001101F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7358221D53F02001101F8 /* AppDelegate.swift */; };
+		6EC7358521D53F02001101F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7358421D53F02001101F8 /* ViewController.swift */; };
+		6EC7358821D53F02001101F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7358621D53F02001101F8 /* Main.storyboard */; };
+		6EC7358A21D53F05001101F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7358921D53F05001101F8 /* Assets.xcassets */; };
+		6EC7358D21D53F05001101F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7358B21D53F05001101F8 /* LaunchScreen.storyboard */; };
+		6EC735A321D53F05001101F8 /* USMTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC735A221D53F05001101F8 /* USMTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EC7359421D53F05001101F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC7357721D53F02001101F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC7357E21D53F02001101F8;
+			remoteInfo = USMTest;
+		};
+		6EC7359F21D53F05001101F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC7357721D53F02001101F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC7357E21D53F02001101F8;
+			remoteInfo = USMTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E4C777221FC20DA00798FB8 /* ICON-USM1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICON-USM1.png"; sourceTree = "<group>"; };
+		6EAD47CA220170B60052067E /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		6EAD47CC22018A070052067E /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		6EC7357F21D53F02001101F8 /* USM Alkesmata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USM Alkesmata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC7358221D53F02001101F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EC7358421D53F02001101F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EC7358721D53F02001101F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EC7358921D53F05001101F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EC7358C21D53F05001101F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EC7358E21D53F05001101F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC7359321D53F05001101F8 /* USM AlkesmataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USM AlkesmataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC7359721D53F05001101F8 /* USMTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USMTestTests.swift; sourceTree = "<group>"; };
+		6EC7359921D53F05001101F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC7359E21D53F05001101F8 /* USM AlkesmataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USM AlkesmataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC735A221D53F05001101F8 /* USMTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USMTestUITests.swift; sourceTree = "<group>"; };
+		6EC735A421D53F05001101F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EC7357C21D53F02001101F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC7359021D53F05001101F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC7359B21D53F05001101F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EC7357621D53F02001101F8 = {
+			isa = PBXGroup;
+			children = (
+				6EC7358121D53F02001101F8 /* USMTest */,
+				6EC7359621D53F05001101F8 /* USMTestTests */,
+				6EC735A121D53F05001101F8 /* USMTestUITests */,
+				6EC7358021D53F02001101F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EC7358021D53F02001101F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EC7357F21D53F02001101F8 /* USM Alkesmata.app */,
+				6EC7359321D53F05001101F8 /* USM AlkesmataTests.xctest */,
+				6EC7359E21D53F05001101F8 /* USM AlkesmataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EC7358121D53F02001101F8 /* USMTest */ = {
+			isa = PBXGroup;
+			children = (
+				6EC7358221D53F02001101F8 /* AppDelegate.swift */,
+				6EC7358421D53F02001101F8 /* ViewController.swift */,
+				6EC7358621D53F02001101F8 /* Main.storyboard */,
+				6E4C777221FC20DA00798FB8 /* ICON-USM1.png */,
+				6EC7358921D53F05001101F8 /* Assets.xcassets */,
+				6EC7358B21D53F05001101F8 /* LaunchScreen.storyboard */,
+				6EC7358E21D53F05001101F8 /* Info.plist */,
+				6EAD47CA220170B60052067E /* homeViewController.swift */,
+				6EAD47CC22018A070052067E /* loginViewController.swift */,
+			);
+			path = USMTest;
+			sourceTree = "<group>";
+		};
+		6EC7359621D53F05001101F8 /* USMTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EC7359721D53F05001101F8 /* USMTestTests.swift */,
+				6EC7359921D53F05001101F8 /* Info.plist */,
+			);
+			path = USMTestTests;
+			sourceTree = "<group>";
+		};
+		6EC735A121D53F05001101F8 /* USMTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EC735A221D53F05001101F8 /* USMTestUITests.swift */,
+				6EC735A421D53F05001101F8 /* Info.plist */,
+			);
+			path = USMTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EC7357E21D53F02001101F8 /* USM Alkesmata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC735A721D53F05001101F8 /* Build configuration list for PBXNativeTarget "USM Alkesmata" */;
+			buildPhases = (
+				6EC7357B21D53F02001101F8 /* Sources */,
+				6EC7357C21D53F02001101F8 /* Frameworks */,
+				6EC7357D21D53F02001101F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USM Alkesmata";
+			productName = USMTest;
+			productReference = 6EC7357F21D53F02001101F8 /* USM Alkesmata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EC7359221D53F05001101F8 /* USM AlkesmataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC735AA21D53F05001101F8 /* Build configuration list for PBXNativeTarget "USM AlkesmataTests" */;
+			buildPhases = (
+				6EC7358F21D53F05001101F8 /* Sources */,
+				6EC7359021D53F05001101F8 /* Frameworks */,
+				6EC7359121D53F05001101F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EC7359521D53F05001101F8 /* PBXTargetDependency */,
+			);
+			name = "USM AlkesmataTests";
+			productName = USMTestTests;
+			productReference = 6EC7359321D53F05001101F8 /* USM AlkesmataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EC7359D21D53F05001101F8 /* USM AlkesmataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC735AD21D53F05001101F8 /* Build configuration list for PBXNativeTarget "USM AlkesmataUITests" */;
+			buildPhases = (
+				6EC7359A21D53F05001101F8 /* Sources */,
+				6EC7359B21D53F05001101F8 /* Frameworks */,
+				6EC7359C21D53F05001101F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EC735A021D53F05001101F8 /* PBXTargetDependency */,
+			);
+			name = "USM AlkesmataUITests";
+			productName = USMTestUITests;
+			productReference = 6EC7359E21D53F05001101F8 /* USM AlkesmataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EC7357721D53F02001101F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Universal Star Multilink";
+				TargetAttributes = {
+					6EC7357E21D53F02001101F8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+					6EC7359221D53F05001101F8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 6EC7357E21D53F02001101F8;
+					};
+					6EC7359D21D53F05001101F8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 6EC7357E21D53F02001101F8;
+					};
+				};
+			};
+			buildConfigurationList = 6EC7357A21D53F02001101F8 /* Build configuration list for PBXProject "USM Alkesmata" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EC7357621D53F02001101F8;
+			productRefGroup = 6EC7358021D53F02001101F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EC7357E21D53F02001101F8 /* USM Alkesmata */,
+				6EC7359221D53F05001101F8 /* USM AlkesmataTests */,
+				6EC7359D21D53F05001101F8 /* USM AlkesmataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EC7357D21D53F02001101F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C777321FC20DA00798FB8 /* ICON-USM1.png in Resources */,
+				6EC7358D21D53F05001101F8 /* LaunchScreen.storyboard in Resources */,
+				6EC7358A21D53F05001101F8 /* Assets.xcassets in Resources */,
+				6EC7358821D53F02001101F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC7359121D53F05001101F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC7359C21D53F05001101F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EC7357B21D53F02001101F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAD47CD22018A070052067E /* loginViewController.swift in Sources */,
+				6EC7358521D53F02001101F8 /* ViewController.swift in Sources */,
+				6EAD47CB220170B60052067E /* homeViewController.swift in Sources */,
+				6EC7358321D53F02001101F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC7358F21D53F05001101F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC7359A21D53F05001101F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC735A321D53F05001101F8 /* USMTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EC7359521D53F05001101F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC7357E21D53F02001101F8 /* USM Alkesmata */;
+			targetProxy = 6EC7359421D53F05001101F8 /* PBXContainerItemProxy */;
+		};
+		6EC735A021D53F05001101F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC7357E21D53F02001101F8 /* USM Alkesmata */;
+			targetProxy = 6EC7359F21D53F05001101F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EC7358621D53F02001101F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC7358721D53F02001101F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EC7358B21D53F05001101F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC7358C21D53F05001101F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EC735A521D53F05001101F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EC735A621D53F05001101F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EC735A821D53F05001101F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A5379QWQS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = USMTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usm-alkesmata.USM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EC735A921D53F05001101F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A5379QWQS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = USMTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usm-alkesmata.USM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EC735AB21D53F05001101F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJ6Q668JE7;
+				INFOPLIST_FILE = USMTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = USM.USMTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USM Alkesmata.app/USM Alkesmata";
+			};
+			name = Debug;
+		};
+		6EC735AC21D53F05001101F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJ6Q668JE7;
+				INFOPLIST_FILE = USMTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = USM.USMTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USM Alkesmata.app/USM Alkesmata";
+			};
+			name = Release;
+		};
+		6EC735AE21D53F05001101F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJ6Q668JE7;
+				INFOPLIST_FILE = USMTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = USM.USMTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = USMTest;
+			};
+			name = Debug;
+		};
+		6EC735AF21D53F05001101F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJ6Q668JE7;
+				INFOPLIST_FILE = USMTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = USM.USMTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = USMTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EC7357A21D53F02001101F8 /* Build configuration list for PBXProject "USM Alkesmata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC735A521D53F05001101F8 /* Debug */,
+				6EC735A621D53F05001101F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC735A721D53F05001101F8 /* Build configuration list for PBXNativeTarget "USM Alkesmata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC735A821D53F05001101F8 /* Debug */,
+				6EC735A921D53F05001101F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC735AA21D53F05001101F8 /* Build configuration list for PBXNativeTarget "USM AlkesmataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC735AB21D53F05001101F8 /* Debug */,
+				6EC735AC21D53F05001101F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC735AD21D53F05001101F8 /* Build configuration list for PBXNativeTarget "USM AlkesmataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC735AE21D53F05001101F8 /* Debug */,
+				6EC735AF21D53F05001101F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EC7357721D53F02001101F8 /* Project object */;
+}

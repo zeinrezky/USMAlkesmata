@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QYh-8U-BZn">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="l0X-zW-Jk3">
+            <objects>
+                <viewController storyboardIdentifier="homeViewController" id="QYh-8U-BZn" customClass="homeViewController" customModule="USMTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QuQ-jg-mS0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNn-mK-y5U">
+                                <rect key="frame" x="72" y="693" width="240" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RLq-1m-Dta"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Continue as Guest"/>
+                                <connections>
+                                    <action selector="guestButton:" destination="QYh-8U-BZn" eventType="touchUpInside" id="hRT-C2-cAA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON-USM1.png" translatesAutoresizingMaskIntoConstraints="NO" id="jXw-hO-RjG">
+                                <rect key="frame" x="72" y="176.99999999999997" width="240" height="421.33333333333326"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0w-fO-x6o">
+                                <rect key="frame" x="111" y="136.33333333333334" width="152" height="30.333333333333343"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUy-GP-sWJ">
+                                <rect key="frame" x="72" y="607" width="240" height="34"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="aln-Pt-FpU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Already a member?"/>
+                                <connections>
+                                    <action selector="member:" destination="JI2-3J-Rwh" eventType="touchUpInside" id="JUs-GR-sCp"/>
+                                    <action selector="memberButton:" destination="QYh-8U-BZn" eventType="touchUpInside" id="2bb-Em-tj9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.54726719856262207" green="0.88831973075866699" blue="0.76720172166824341" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="V0w-fO-x6o" firstAttribute="leading" secondItem="mqN-Sp-lcB" secondAttribute="leading" constant="111" id="06S-NM-jTp"/>
+                            <constraint firstItem="jXw-hO-RjG" firstAttribute="top" secondItem="mqN-Sp-lcB" secondAttribute="top" constant="133" id="2pm-mU-Nuz"/>
+                            <constraint firstItem="DUy-GP-sWJ" firstAttribute="leading" secondItem="mqN-Sp-lcB" secondAttribute="leading" constant="72" id="R7o-Kd-p4r"/>
+                            <constraint firstItem="mqN-Sp-lcB" firstAttribute="trailing" secondItem="V0w-fO-x6o" secondAttribute="trailing" constant="112" id="RHF-Di-Lkz"/>
+                            <constraint firstItem="DUy-GP-sWJ" firstAttribute="firstBaseline" secondItem="jXw-hO-RjG" secondAttribute="baseline" constant="25.666666666666668" symbolType="layoutAnchor" id="RjN-7l-PIp"/>
+                            <constraint firstItem="mqN-Sp-lcB" firstAttribute="bottom" secondItem="DUy-GP-sWJ" secondAttribute="bottom" constant="137" id="TDs-Fb-Amw"/>
+                            <constraint firstItem="jXw-hO-RjG" firstAttribute="leading" secondItem="mqN-Sp-lcB" secondAttribute="leading" constant="72" id="aX2-7r-fvP"/>
+                            <constraint firstItem="GNn-mK-y5U" firstAttribute="leading" secondItem="mqN-Sp-lcB" secondAttribute="leading" constant="72" id="cC2-9G-NMS"/>
+                            <constraint firstItem="mqN-Sp-lcB" firstAttribute="trailing" secondItem="GNn-mK-y5U" secondAttribute="trailing" constant="63" id="cCR-vN-t2a"/>
+                            <constraint firstItem="mqN-Sp-lcB" firstAttribute="trailing" secondItem="DUy-GP-sWJ" secondAttribute="trailing" constant="63" id="dis-sI-Lk5"/>
+                            <constraint firstItem="V0w-fO-x6o" firstAttribute="top" secondItem="mqN-Sp-lcB" secondAttribute="top" constant="92.333333333333343" id="ig7-GA-IGw"/>
+                            <constraint firstItem="mqN-Sp-lcB" firstAttribute="trailing" secondItem="jXw-hO-RjG" secondAttribute="trailing" constant="63" id="it0-u9-aO6"/>
+                            <constraint firstItem="jXw-hO-RjG" firstAttribute="firstBaseline" secondItem="V0w-fO-x6o" secondAttribute="baseline" constant="16" symbolType="layoutAnchor" id="meU-sI-eCO"/>
+                            <constraint firstItem="mqN-Sp-lcB" firstAttribute="bottom" secondItem="GNn-mK-y5U" secondAttribute="bottom" constant="55" id="wta-uH-t1w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mqN-Sp-lcB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UxY-WP-8T9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="JI2-3J-Rwh" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-527.20000000000005" y="133.00492610837438"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="t6f-DT-XkX">
+            <objects>
+                <viewController storyboardIdentifier="loginViewController" id="c0k-Av-5Cn" customClass="loginViewController" customModule="USMTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RKM-2y-dxA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6T-SY-8nI">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h6T-SY-8nI" firstAttribute="bottom" secondItem="BSb-SG-pYi" secondAttribute="bottom" id="3JO-gw-bJc"/>
+                            <constraint firstItem="h6T-SY-8nI" firstAttribute="leading" secondItem="BSb-SG-pYi" secondAttribute="leading" id="9a9-nO-u8b"/>
+                            <constraint firstItem="h6T-SY-8nI" firstAttribute="trailing" secondItem="BSb-SG-pYi" secondAttribute="trailing" id="BrE-do-tBU"/>
+                            <constraint firstItem="h6T-SY-8nI" firstAttribute="top" secondItem="BSb-SG-pYi" secondAttribute="top" id="g5h-FC-VW3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BSb-SG-pYi"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="h6T-SY-8nI" id="MuP-Qu-JeD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WKM-ee-GIJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="132.26600985221674"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ICON-USM1.png" width="323" height="319"/>
+    </resources>
+</document>

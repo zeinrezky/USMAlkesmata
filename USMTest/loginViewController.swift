@@ -30,7 +30,7 @@ class loginViewController: UIViewController, WKUIDelegate, WKNavigationDelegate 
         
         webView.load(myRequest)
         webView.uiDelegate = self
-        webView.navigationDelegate = self
+        webView.navigationDelegate = self // Did you make a webview application? I think this is the reason why Apple was reject your application from AppStore.
         
     }
 
